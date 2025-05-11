@@ -1,0 +1,17 @@
+GET http://localhost:4000/api/applicants/
+
+###
+
+POST http://localhost:4000/api/applicants/
+Content-Type: application/json
+
+{
+  
+  "name": "John Doe",
+  "amount": "12000",
+  "tenure":"1",
+  "reason" : "purchasing cycle",
+  "employmentStatus" : "no",
+  "address" : "Oregon",
+  
+  }
